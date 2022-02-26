@@ -35,11 +35,11 @@ try {
 For folder backup;
 ```php
 try {
-    $folderBackup = $backup->folder([
+    $folderBackup = $backup->folder(array(
         'dir' => __DIR__,
         'file' => $pathFolder . '/files.zip',
         'exclude' => ['plugins', 'dist']
-    ]);
+    ));
     if ($folderBackup) {
         echo 'success';
     }
