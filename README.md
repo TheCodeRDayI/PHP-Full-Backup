@@ -50,4 +50,4 @@ try {
 ```
 
 # Screenshot
-![Screenshot](img/screenshot.png)
+![Screenshot](img/screenshot.jpg)
