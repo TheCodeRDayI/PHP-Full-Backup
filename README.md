@@ -3,6 +3,7 @@
 First, you need to initialize `Backup` class.
 
 ```php
+include 'Backups/Backup.php';
 $backup = new Backup();
 ```
 
