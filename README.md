@@ -25,7 +25,8 @@ try {
         'file' => $pathMySql . '/database.sql'
     ));
     if ($mysqlBackup) {
-        echo 'success';
+        //success message
+        echo '<div class="alert alert-warning"><i class="fa fa-info-circle"></i> ' . $pathMySql . ' isimli mysql yedeği alındı.</div>'; //success message in Turkish
     }
 } catch (Exception $e) {
     die($e->getMessage());
@@ -42,7 +43,8 @@ try {
         'exclude' => ['plugins', 'dist']
     ));
     if ($folderBackup) {
-        echo 'success';
+        //success message
+        echo '<div class="alert alert-warning"><i class="fa fa-info-circle"></i> ' . $pathFolder . ' isimli klasör yedeği alındı.</div>'; //success message in Turkish
     }
 } catch (Exception $e) {
     die($e->getMessage());
