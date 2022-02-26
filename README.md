@@ -7,6 +7,7 @@ include 'Backups/Backup.php';
 $backup = new Backup();
 ```
 
+This place is entirely up to you.
 
 ```php
 $pathMySql = "backups/MySql/Backup-" . date("Y-m-d-H-i-s");
